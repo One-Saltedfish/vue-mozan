@@ -93,7 +93,7 @@ export default {
   },
   methods: {
     begin2() {
-      this.$router.push("/ShoppingCart1");
+      this.$router.push("/vue-mozan/ShoppingCart1");
     }
   }
 };

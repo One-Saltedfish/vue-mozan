@@ -12,16 +12,16 @@
             <li>
               <router-link
                 to="/ShoppingCart1"
-                :class="$route.fullPath==='/ShoppingCart1'?'active':''"
+                :class="$route.fullPath==='/vue-mozan/ShoppingCart1'?'active':''"
               >购物车</router-link>
             </li>
             <li>
-              <router-link to="/order" :class="$route.fullPath==='/order'?'active':''">填写订单</router-link>
+              <router-link to="/order" :class="$route.fullPath==='/vue-mozan/order'?'active':''">填写订单</router-link>
             </li>
             <li>
               <router-link
                 to="/shouyingtai1"
-                :class="$route.fullPath==='/shouyingtai1'||'/shouyingtai2'||'/shouyingtai3'?'active':''"
+                :class="$route.fullPath==='/vue-mozan/shouyingtai1'||'/vue-mozan/shouyingtai2'||'/vue-mozan/shouyingtai3'?'active':''"
               >付款，完成订单</router-link>
             </li>
           </ul>
@@ -389,7 +389,7 @@ export default {
       } else if (!this.newAddress) {
         alert("请选择地址");
       } else {
-        this.$router.push("/shouyingtai1");
+        this.$router.push("/vue-mozan/shouyingtai1");
       }
     }
   },

@@ -10,24 +10,25 @@ import Shouyingtai3 from "./components/Shouyingtai3.vue";
 import Shouyingtai4 from "./components/Shouyingtai4.vue";
 Vue.use(VueRouter);
 export default new VueRouter({
-  routes: [{
-      path: "/",
+  routes: [
+    {
+      path: "/vue-mozan/",
       component: Home
     },
     {
-      path: "/ShoppingCart1",
+      path: "/vue-mozan/ShoppingCart1",
       component: ShoppingCart1
     },
     {
-      path: "/ShoppingCart2",
+      path: "/vue-mozan/ShoppingCart2",
       component: ShoppingCart2
     },
     {
-      path: "/order",
+      path: "/vue-mozan/order",
       component: Order
     },
     {
-      path: "/shouyingtai1",
+      path: "/vue-mozan/shouyingtai1",
       component: Shouyingtai1
     },
     {

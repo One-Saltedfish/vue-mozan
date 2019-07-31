@@ -304,7 +304,7 @@ export default {
       }
     },
     begin() {
-      this.$router.push("/ShoppingCart2");
+      this.$router.push("/vue-mozan/ShoppingCart2");
     }
   }
 };
